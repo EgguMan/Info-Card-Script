@@ -1,7 +1,8 @@
 function onCreate()
     --Hello to anybody wishing to edit the code for this! A few things. 1, Thank you for downloading my script! And 2, if you have any questions or bug reports, please DM them to me on discord @Eggu#3084. 
-    --If you wish to use this in your mod. Please do not remove this! And just put me in the credits. Doesnt have the be the in game credits, can be on the game banana page.
-    --Started at 4:30 PM est.
+    --If you wish to use this in your mod. Please do not remove this! And just put me in the credits. Doesnt have the be the in game credits, can be on the 1, 1banana page.
+    --Started at 4:30 PM.
+    --ended around 6:45 PM.
 
     --I will document what everything does, so if you're looking to learn Psych Lua, learn some basic programming, pull up the wiki and start from here!
 
@@ -14,9 +15,9 @@ function onCreate()
     scaleObject("LeftBar", 0.75, 0.75);
     scaleObject("RightBar", 0.75, 0.75);
     --making sure it moves with the camera.
-    setObjectCamera("MiddleCard", "hud");
-    setObjectCamera("LeftBar", "hud");
-    setObjectCamera("RightBar", "hud");
+    setObjectCamera("MiddleCard", "other");
+    setObjectCamera("LeftBar", "other");
+    setObjectCamera("RightBar", "other");
     --putting it ingame
     addLuaSprite("LeftBar", true);
     addLuaSprite("RightBar", true);
@@ -34,6 +35,9 @@ function onCreate()
     addLuaText("NowPlay", true);
     addLuaText("Diff", true);
     addLuaText("TheWeek", true);
+    setObjectCamera("NowPlay", "other");
+    setObjectCamera("Diff", "other");
+    setObjectCamera("TheWeek", "other");
     setTextSize("NowPlay", 22);
     setTextSize("Diff", 22);
     setTextSize("TheWeek", 22)
