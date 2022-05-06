@@ -1,6 +1,6 @@
 function onCreate()
     --Hello to anybody wishing to edit the code for this! A few things. 1, Thank you for downloading my script! And 2, if you have any questions or bug reports, please DM them to me on discord @Eggu#3084. 
-    --If you wish to use this in your mod. Please do not remove this! And just put me in the credits. Doesnt have the be the in game credits, can be on the 1, 1banana page.
+    --If you wish to use this in your mod. Please do not remove this! And just put me in the credits. Doesnt have the be the in game credits, can be on the game banana page.
     --Started at 4:30 PM est.
 
     --I will document what everything does, so if you're looking to learn Psych Lua, learn some basic programming, pull up the wiki and start from here!
