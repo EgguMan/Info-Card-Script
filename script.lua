@@ -46,27 +46,27 @@ end
 --alright, here comes the hard parts
 function onStepHit()
     if curStep==1 then
-        doTweenX("Null1","LeftBar", -150, 1, "backIn");
-        doTweenX("Null4","NowPlay", 460, 1, "backIn");
-        doTweenX("Null5","Diff", 460, 1, "backIn");
-        doTweenX("Null6","TheWeek", 435, 1, "backIn");
+        doTweenX("NullButOriginalByEggu1","LeftBar", -150, 1, "backIn");
+        doTweenX("NullButOriginalByEggu4","NowPlay", 460, 1, "backIn");
+        doTweenX("NullButOriginalByEggu5","Diff", 460, 1, "backIn");
+        doTweenX("NullButOriginalByEggu6","TheWeek", 435, 1, "backIn");
         runTimer("LeftZoom", 0.00001) 
     end
 end
 
 function onTimerCompleted(tag)
     if tag=="LeftZoom" then
-        doTweenX("null2","MiddleCard", -150, 1, "backIn");
+        doTweenX("NullButOriginalByEggu2","MiddleCard", -150, 1, "backIn");
         runTimer("MidZoom", 0.00001)
     elseif tag=="MidZoom" then
-        doTweenX("null3","RightBar", -150, 1, "backIn");
+        doTweenX("NullButOriginalByEggu3","RightBar", -150, 1, "backIn");
         runTimer("WaitUntilFinal", 3);
     elseif tag=="WaitUntilFinal" then
-        doTweenX("Null1","LeftBar", 1000, 1, "backIn");
-        doTweenX("null2","MiddleCard", 1000, 1, "backIn");
-        doTweenX("null3","RightBar", 1000, 1, "backIn");
-        doTweenX("Null7","NowPlay", 1500, 1, "backIn");
-        doTweenX("Null8","Diff", 1500, 1, "backIn");
-        doTweenX("Null9","TheWeek", 1500, 1, "backIn");
+        doTweenX("NullButOriginalByEggu1","LeftBar", 1000, 1, "backIn");
+        doTweenX("NullButOriginalByEggu2","MiddleCard", 1000, 1, "backIn");
+        doTweenX("NullButOriginalByEggu3","RightBar", 1000, 1, "backIn");
+        doTweenX("NullButOriginalByEggu7","NowPlay", 1500, 1, "backIn");
+        doTweenX("NullButOriginalByEggu8","Diff", 1500, 1, "backIn");
+        doTweenX("NullButOriginalByEggu9","TheWeek", 1500, 1, "backIn");
     end
 end
