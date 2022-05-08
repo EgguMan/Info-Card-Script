@@ -15,6 +15,6 @@ If you use this code, please credit me by keeping this readme. the .lua contains
 HOW TO INSTALL
 
 1, put the 3 images inside the Psych>Mods>Images folder. nothing past that
-2, put the .lua file in Psych>Mods>Script
+2, put the .lua file in Psych>Mods>Scripts
 3, Delete the FLA or move it into your adobe animate save folder
 4, load up a song.
